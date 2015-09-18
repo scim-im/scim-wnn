@@ -104,6 +104,7 @@ bool WnnConversion::connect()
     }
 
     wnnConnect(String("scim-wnn"),host,rc,sType,0);
+    return(true);
 }
 
 /*!
@@ -154,8 +155,10 @@ void WnnConversion::wnnDisconnect()
  */
 bool WnnConversion::isConnected()
 {
-    if (wnn) return(true);
-    else (false);
+    if (wnn) 
+	return(true);
+    else 
+	return(false);
 }
 
 
@@ -166,8 +169,8 @@ bool WnnConversion::isConnected()
  */
 int WnnConversion::wnn_message (char *s)
 {
-
     SCIM_DEBUG_IMENGINE(1) << s << "\n";
+    return 0;
 }
 
 /*!
@@ -175,8 +178,8 @@ int WnnConversion::wnn_message (char *s)
  */
 int WnnConversion::wnn_error (char *s)
 {
-
     SCIM_DEBUG_IMENGINE(1) << s << "\n";
+    return 0;
 }
 
 

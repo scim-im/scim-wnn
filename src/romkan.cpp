@@ -524,6 +524,7 @@ String Romkan::getModeName()
             break;
         }
     }
+    return(String(""));
 }
 
 
