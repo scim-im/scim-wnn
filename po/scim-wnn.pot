@@ -1,0 +1,516 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-03-28 11:43+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/scim_wnn_imengine.cpp:87 src/scim_wnn_imengine.cpp:94
+#: src/scim_wnn_imengine_setup.cpp:96
+msgid "Wnn"
+msgstr ""
+
+#: src/scim_wnn_imengine.cpp:107
+msgid "ja_JP"
+msgstr ""
+
+#: src/scim_wnn_imengine.cpp:119
+msgid "(C)2004-2006 TAM(Teppei Tamra) <tam-t@par.odn.ne.jp>"
+msgstr ""
+
+#: src/scim_wnn_imengine.cpp:129
+msgid "SCIM-WNN HELP"
+msgstr ""
+
+#: src/scim_wnn_imengine.cpp:337
+msgid "input mode"
+msgstr ""
+
+#: src/scim_wnn_imengine.cpp:341 src/scim_wnn_imengine.cpp:344
+msgid "mode status"
+msgstr ""
+
+#: src/scim_wnn_imengine.cpp:346
+msgid "conversion mode"
+msgstr ""
+
+#: src/scim_wnn_imengine.cpp:357
+msgid "Kanji"
+msgstr ""
+
+#: src/scim_wnn_imengine.cpp:358
+msgid "Yosoku"
+msgstr ""
+
+#: src/scim_wnn_imengine.cpp:364
+msgid "AUTO"
+msgstr ""
+
+#: src/scim_wnn_imengine.cpp:365
+msgid "REN"
+msgstr ""
+
+#: src/scim_wnn_imengine.cpp:906 src/scim_wnn_imengine.cpp:914
+#: src/scim_wnn_imengine.cpp:941 src/scim_wnn_imengine.cpp:953
+msgid "could not connect to jserver."
+msgstr ""
+
+#: src/scim_wnn_imengine.cpp:993
+msgid "Ikeiji lookup result"
+msgstr ""
+
+#: src/scim_wnn_imengine.cpp:997
+msgid "association lookup result"
+msgstr ""
+
+#: src/scim_wnn_imengine.cpp:1001
+msgid "yosoku lookup result"
+msgstr ""
+
+#: src/scim_wnn_imengine.cpp:1005
+msgid "lookup result"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:101
+msgid "A Wnn IMEngine Module."
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:177
+msgid "Wnn4 or FreeWnn"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:182
+msgid "Wnn6"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:187
+msgid "Wnn7"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:192
+msgid "Wnn8"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:197
+msgid "Roma-Kana input"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:202
+msgid "Kana input"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:216
+msgid "Commit keys:"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:217
+msgid "Select commit keys"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:218
+msgid "The key events to commit the preedit string. "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:225
+msgid "Convert keys:"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:226
+msgid "Select convert keys"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:227
+msgid "The key events to convert the preedit string to kanji. "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:234
+msgid "Cancel keys:"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:235
+msgid "Select cancel keys"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:236
+msgid "The key events to cancel preediting or converting. "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:243
+msgid "Backspace keys:"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:244
+msgid "Select backspace keys"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:245
+msgid "The key events to delete a character before caret. "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:252
+msgid "Delete keys:"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:253
+msgid "Select delete keys"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:254
+msgid "The key events to delete a character after caret. "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:274
+msgid "Move forward keys:"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:275
+msgid "Select move caret forward keys"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:276
+msgid "The key events to move the caret to forward. "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:283
+msgid "Move backward keys:"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:284
+msgid "Select move caret backward keys"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:285
+msgid "The key events to move the caret to backward. "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:305
+msgid "Next segment keys:"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:306
+msgid "Select next segment keys"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:307
+msgid "The key events to select next segment. "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:314
+msgid "Previous segment keys:"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:315
+msgid "Select previous segment keys"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:316
+msgid "The key events to select previous segment. "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:323
+msgid "Shrink segment keys:"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:324
+msgid "Select shrink segment keys"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:325
+msgid "The key events to shrink the selected segment. "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:332
+msgid "Expand segment keys:"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:333
+msgid "Select expand segment keys"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:334
+msgid "The key events to expand the selected segment. "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:354
+msgid "Next keys:"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:355
+msgid "Select next candidate keys"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:356
+msgid "The key events to select next candidate. "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:363
+msgid "Previous keys:"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:364
+msgid "Select previous candidate keys"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:365
+msgid "The key events to select previous candidate. "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:372
+msgid "candidates list keys:"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:373
+msgid "Select candidates list keys"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:374
+msgid "The key events to popup candidates list. "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:381
+msgid "Page up keys:"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:382
+msgid "Select page up candidates keys"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:383
+msgid "The key events to select page up candidates. "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:390
+msgid "Page down keys:"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:391
+msgid "Select page down candidates keys"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:392
+msgid "The key events to select page down candidates. "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:412
+msgid "auto conversion mode keys:"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:413
+msgid "Select auto conversion mode keys"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:414
+msgid "The key events to change auto conversion mode. "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:421
+msgid "Yosoku keys:"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:422
+msgid "Select yosoku keys"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:423
+msgid "The key events to select from completion list. "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:430
+msgid "Convert to ikeiji keys:"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:431
+msgid "Select ikeiji keys"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:432
+msgid "The key events to convert the selected candidate to ikei-kanji. "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:439
+msgid "Convert to rensou keys:"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:440
+msgid "Select rensou keys"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:441
+msgid ""
+"The key events to convert the selected candidate to the associated "
+"acceptation string.  "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:448
+msgid "Convert to HIRAGANA keys:"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:449
+msgid "Select convert to HIRAGANA keys"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:450
+msgid ""
+"The key events to convert the selected candidate or the preedit string to "
+"HIRAGANA. "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:457
+msgid "Convert to KATAKANA keys:"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:458
+msgid "Select convert to KATAGANA keys"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:459
+msgid ""
+"The key events to convert the selected candidate or the preedit string to "
+"KATAKANA. "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:476
+msgid "Common keys"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:477
+msgid "Preedit keys"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:478
+msgid "Segment keys"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:479
+msgid "Candidates keys"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:480
+msgid "Other function keys"
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:530
+msgid "_Server: "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:547
+msgid "input the server name to connect."
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:551
+msgid "_wnnenvrc: "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:566 src/scim_wnn_imengine_setup.cpp:713
+#: src/scim_wnn_imengine_setup.cpp:793
+msgid "..."
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:573
+msgid "input the path of wnnenvrc."
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:576
+msgid "Server_type: "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:596
+msgid "select the server type from Wnn4 / Wnn6 / Wnn7."
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:599
+msgid "Default_PreEditor: "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:618
+msgid "select the default preeditor."
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:622
+msgid "_Auto candidates popup: "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:639
+msgid ""
+"set the count of conversion until displaying the list of lookup result "
+"automatically."
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:642
+msgid "_NumKey selection: "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:657
+msgid "If you use the candidate selection by numkey, check this."
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:660
+msgid "Auto _conversion: "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:675
+msgid "If you set default to the auto conversion mode use, check this."
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:679
+msgid "_YOSOKU-input: "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:694
+msgid "if you use YOSOKU-input , check this."
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:698
+msgid "_Roma-Kana table: "
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:719
+msgid "input the path of Roma-Kana convert table file."
+msgstr ""
+
+#: src/scim_wnn_imengine_setup.cpp:833
+msgid "Options"
+msgstr ""
+
+#: src/romkan.cpp:507
+msgid "Roma-Kana"
+msgstr ""
+
+#: src/romkan.cpp:511
+msgid "Roma-Katakana"
+msgstr ""
+
+#: src/romkan.cpp:515
+msgid "Half Roma-Kana"
+msgstr ""
+
+#: src/romkan.cpp:519
+msgid "Ascii"
+msgstr ""
+
+#: src/romkan.cpp:523
+msgid "Wide Ascii"
+msgstr ""
+
+#: src/romkan.cpp:587
+msgid "Roma"
+msgstr ""
+
+#: src/kanainput.cpp:128
+msgid "KANA"
+msgstr ""
+
+#: src/kanainput.cpp:136
+msgid "Kana"
+msgstr ""

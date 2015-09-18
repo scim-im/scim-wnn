@@ -1,0 +1,7 @@
+src/scim_wnn_imengine.cpp
+src/scim_wnn_imengine.h
+src/scim_wnn_imengine_setup.cpp
+src/romkan.h
+src/romkan.cpp
+src/kanainput.h
+src/kanainput.cpp

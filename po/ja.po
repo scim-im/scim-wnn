@@ -1,0 +1,518 @@
+# translation of ja.po to Japanese
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# ＴＡＭ (Teppei Tamra) <tamra@users.sourceforge.jp>, 2004.
+# ＴＡＭ (Teppei Tamra) <tam-t@par.odn.ne.jp>, 2004.
+# ＴＡＭ (Teppei Tamra) <tam-t@par.odn.ne.jp>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ja\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-03-28 11:43+0900\n"
+"PO-Revision-Date: 2004-12-01 14:29+0900\n"
+"Last-Translator: ＴＡＭ (Teppei Tamra) <tam-t@par.odn.ne.jp>\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+
+#: src/scim_wnn_imengine.cpp:87 src/scim_wnn_imengine.cpp:94
+#: src/scim_wnn_imengine_setup.cpp:96
+msgid "Wnn"
+msgstr "Wnn"
+
+#: src/scim_wnn_imengine.cpp:107
+msgid "ja_JP"
+msgstr "ja_JP"
+
+#: src/scim_wnn_imengine.cpp:119
+msgid "(C)2004-2006 TAM(Teppei Tamra) <tam-t@par.odn.ne.jp>"
+msgstr "(C)2004-2006 ＴＡＭ <tam-t@par.odn.ne.jp>"
+
+#: src/scim_wnn_imengine.cpp:129
+msgid "SCIM-WNN HELP"
+msgstr "適当にそれっぽく操作して下さい。"
+
+#: src/scim_wnn_imengine.cpp:337
+msgid "input mode"
+msgstr "入力モード"
+
+#: src/scim_wnn_imengine.cpp:341 src/scim_wnn_imengine.cpp:344
+msgid "mode status"
+msgstr "状態"
+
+#: src/scim_wnn_imengine.cpp:346
+msgid "conversion mode"
+msgstr "変換モード"
+
+#: src/scim_wnn_imengine.cpp:357
+msgid "Kanji"
+msgstr "[漢]"
+
+#: src/scim_wnn_imengine.cpp:358
+msgid "Yosoku"
+msgstr "[予]"
+
+#: src/scim_wnn_imengine.cpp:364
+msgid "AUTO"
+msgstr "[逐]"
+
+#: src/scim_wnn_imengine.cpp:365
+msgid "REN"
+msgstr "[連]"
+
+#: src/scim_wnn_imengine.cpp:906 src/scim_wnn_imengine.cpp:914
+#: src/scim_wnn_imengine.cpp:941 src/scim_wnn_imengine.cpp:953
+msgid "could not connect to jserver."
+msgstr "サーバに接続できませんでした"
+
+#: src/scim_wnn_imengine.cpp:993
+msgid "Ikeiji lookup result"
+msgstr "異形字変換"
+
+#: src/scim_wnn_imengine.cpp:997
+msgid "association lookup result"
+msgstr "連想変換"
+
+#: src/scim_wnn_imengine.cpp:1001
+msgid "yosoku lookup result"
+msgstr "予測候補"
+
+#: src/scim_wnn_imengine.cpp:1005
+msgid "lookup result"
+msgstr "候補一覧"
+
+#: src/scim_wnn_imengine_setup.cpp:101
+msgid "A Wnn IMEngine Module."
+msgstr "Wnn IMエンジンモジュール"
+
+#: src/scim_wnn_imengine_setup.cpp:177
+msgid "Wnn4 or FreeWnn"
+msgstr "Wnn4又はFreeWnn"
+
+#: src/scim_wnn_imengine_setup.cpp:182
+msgid "Wnn6"
+msgstr "Wnn6"
+
+#: src/scim_wnn_imengine_setup.cpp:187
+msgid "Wnn7"
+msgstr "Wnn7"
+
+#: src/scim_wnn_imengine_setup.cpp:192
+msgid "Wnn8"
+msgstr "Wnn8"
+
+#: src/scim_wnn_imengine_setup.cpp:197
+msgid "Roma-Kana input"
+msgstr "ローマ字入力"
+
+#: src/scim_wnn_imengine_setup.cpp:202
+msgid "Kana input"
+msgstr "かな入力"
+
+#: src/scim_wnn_imengine_setup.cpp:216
+msgid "Commit keys:"
+msgstr "確定キー:"
+
+#: src/scim_wnn_imengine_setup.cpp:217
+msgid "Select commit keys"
+msgstr "確定キーの設定"
+
+#: src/scim_wnn_imengine_setup.cpp:218
+msgid "The key events to commit the preedit string. "
+msgstr "文字列を確定するキーイベント"
+
+#: src/scim_wnn_imengine_setup.cpp:225
+msgid "Convert keys:"
+msgstr "変換キー:"
+
+#: src/scim_wnn_imengine_setup.cpp:226
+msgid "Select convert keys"
+msgstr "変換キーの設定"
+
+#: src/scim_wnn_imengine_setup.cpp:227
+msgid "The key events to convert the preedit string to kanji. "
+msgstr "文字列を漢字へ変換するキーイベント"
+
+#: src/scim_wnn_imengine_setup.cpp:234
+msgid "Cancel keys:"
+msgstr "キャンセルキー:"
+
+#: src/scim_wnn_imengine_setup.cpp:235
+msgid "Select cancel keys"
+msgstr "キャンセルキーの設定"
+
+#: src/scim_wnn_imengine_setup.cpp:236
+msgid "The key events to cancel preediting or converting. "
+msgstr "文字入力や文字変換をキャンセルするキーイベント"
+
+#: src/scim_wnn_imengine_setup.cpp:243
+msgid "Backspace keys:"
+msgstr "バックスペースキー:"
+
+#: src/scim_wnn_imengine_setup.cpp:244
+msgid "Select backspace keys"
+msgstr "バックスペースキーの設定"
+
+#: src/scim_wnn_imengine_setup.cpp:245
+msgid "The key events to delete a character before caret. "
+msgstr "キャレットの前の文字を一文字削除するキーイベント"
+
+#: src/scim_wnn_imengine_setup.cpp:252
+msgid "Delete keys:"
+msgstr "削除キー:"
+
+#: src/scim_wnn_imengine_setup.cpp:253
+msgid "Select delete keys"
+msgstr "削除キーの設定"
+
+#: src/scim_wnn_imengine_setup.cpp:254
+msgid "The key events to delete a character after caret. "
+msgstr "キャレットの後の文字を一文字削除するキーイベント"
+
+#: src/scim_wnn_imengine_setup.cpp:274
+msgid "Move forward keys:"
+msgstr "前方へ移動するキー:"
+
+#: src/scim_wnn_imengine_setup.cpp:275
+msgid "Select move caret forward keys"
+msgstr "キャレットを前方へ移動するキーの設定"
+
+#: src/scim_wnn_imengine_setup.cpp:276
+msgid "The key events to move the caret to forward. "
+msgstr "キャレットを前方へ移動するキーイベント"
+
+#: src/scim_wnn_imengine_setup.cpp:283
+msgid "Move backward keys:"
+msgstr "後方へ移動するキー:"
+
+#: src/scim_wnn_imengine_setup.cpp:284
+msgid "Select move caret backward keys"
+msgstr "キャレットを後方へ移動するキーの設定"
+
+#: src/scim_wnn_imengine_setup.cpp:285
+msgid "The key events to move the caret to backward. "
+msgstr "キャレットを後方へ移動するキーイベント"
+
+#: src/scim_wnn_imengine_setup.cpp:305
+msgid "Next segment keys:"
+msgstr "次の文節へ移動するキー:"
+
+#: src/scim_wnn_imengine_setup.cpp:306
+msgid "Select next segment keys"
+msgstr "次の文節へ移動するキーの設定"
+
+#: src/scim_wnn_imengine_setup.cpp:307
+msgid "The key events to select next segment. "
+msgstr "次の文節を選択するキーイベント"
+
+#: src/scim_wnn_imengine_setup.cpp:314
+msgid "Previous segment keys:"
+msgstr "前の文節へ移動するキー:"
+
+#: src/scim_wnn_imengine_setup.cpp:315
+msgid "Select previous segment keys"
+msgstr "前の文節へ移動するキーの設定"
+
+#: src/scim_wnn_imengine_setup.cpp:316
+msgid "The key events to select previous segment. "
+msgstr "前の文節を選択するキーイベント"
+
+#: src/scim_wnn_imengine_setup.cpp:323
+msgid "Shrink segment keys:"
+msgstr "文節を縮めるキー:"
+
+#: src/scim_wnn_imengine_setup.cpp:324
+msgid "Select shrink segment keys"
+msgstr "文節を縮めるキーの設定"
+
+#: src/scim_wnn_imengine_setup.cpp:325
+msgid "The key events to shrink the selected segment. "
+msgstr "選択文節を縮めるキーイベント"
+
+#: src/scim_wnn_imengine_setup.cpp:332
+msgid "Expand segment keys:"
+msgstr "文節を拡げるキー"
+
+#: src/scim_wnn_imengine_setup.cpp:333
+msgid "Select expand segment keys"
+msgstr "文節を拡げるキーの設定"
+
+#: src/scim_wnn_imengine_setup.cpp:334
+msgid "The key events to expand the selected segment. "
+msgstr "選択文節を拡げるキーイベント"
+
+#: src/scim_wnn_imengine_setup.cpp:354
+msgid "Next keys:"
+msgstr "次へ移動するキー:"
+
+#: src/scim_wnn_imengine_setup.cpp:355
+msgid "Select next candidate keys"
+msgstr "次の候補を選択するキーの設定"
+
+#: src/scim_wnn_imengine_setup.cpp:356
+msgid "The key events to select next candidate. "
+msgstr "次の候補を選択するキーイベント"
+
+#: src/scim_wnn_imengine_setup.cpp:363
+msgid "Previous keys:"
+msgstr "前へ移動するキー:"
+
+#: src/scim_wnn_imengine_setup.cpp:364
+msgid "Select previous candidate keys"
+msgstr "前の候補を選択するキーの設定"
+
+#: src/scim_wnn_imengine_setup.cpp:365
+msgid "The key events to select previous candidate. "
+msgstr "前の候補を選択するキーイベント"
+
+#: src/scim_wnn_imengine_setup.cpp:372
+msgid "candidates list keys:"
+msgstr "候補一覧キー:"
+
+#: src/scim_wnn_imengine_setup.cpp:373
+msgid "Select candidates list keys"
+msgstr "候補一覧を表示するキーの設定"
+
+#: src/scim_wnn_imengine_setup.cpp:374
+msgid "The key events to popup candidates list. "
+msgstr "候補一覧を表示するキーイベント"
+
+#: src/scim_wnn_imengine_setup.cpp:381
+msgid "Page up keys:"
+msgstr "前のページへ移動するキー:"
+
+#: src/scim_wnn_imengine_setup.cpp:382
+msgid "Select page up candidates keys"
+msgstr "前のページへ移動するキーの設定"
+
+#: src/scim_wnn_imengine_setup.cpp:383
+msgid "The key events to select page up candidates. "
+msgstr "前のページへ移動するキーイベント"
+
+#: src/scim_wnn_imengine_setup.cpp:390
+msgid "Page down keys:"
+msgstr "次のページへ移動するキー:"
+
+#: src/scim_wnn_imengine_setup.cpp:391
+msgid "Select page down candidates keys"
+msgstr "次のページへ移動するキーの設定"
+
+#: src/scim_wnn_imengine_setup.cpp:392
+msgid "The key events to select page down candidates. "
+msgstr "次のページへ移動するキーイベント"
+
+#: src/scim_wnn_imengine_setup.cpp:412
+msgid "auto conversion mode keys:"
+msgstr "逐次変換モードキー:"
+
+#: src/scim_wnn_imengine_setup.cpp:413
+msgid "Select auto conversion mode keys"
+msgstr "逐次変換モードキーの設定"
+
+#: src/scim_wnn_imengine_setup.cpp:414
+msgid "The key events to change auto conversion mode. "
+msgstr "逐次変換モードを切り替えるキーイベント"
+
+#: src/scim_wnn_imengine_setup.cpp:421
+msgid "Yosoku keys:"
+msgstr "予測入力キー:"
+
+#: src/scim_wnn_imengine_setup.cpp:422
+msgid "Select yosoku keys"
+msgstr "予測入力キーの設定"
+
+#: src/scim_wnn_imengine_setup.cpp:423
+msgid "The key events to select from completion list. "
+msgstr "予測入力候補から選択するキーイベント"
+
+#: src/scim_wnn_imengine_setup.cpp:430
+msgid "Convert to ikeiji keys:"
+msgstr "異形字変換キー:"
+
+#: src/scim_wnn_imengine_setup.cpp:431
+msgid "Select ikeiji keys"
+msgstr "異形字変換キーの設定"
+
+#: src/scim_wnn_imengine_setup.cpp:432
+msgid "The key events to convert the selected candidate to ikei-kanji. "
+msgstr "選択された候補を異形字漢字へ変換するキーイベント"
+
+#: src/scim_wnn_imengine_setup.cpp:439
+msgid "Convert to rensou keys:"
+msgstr "連想変換キー:"
+
+#: src/scim_wnn_imengine_setup.cpp:440
+msgid "Select rensou keys"
+msgstr "連想変換キーの設定"
+
+#: src/scim_wnn_imengine_setup.cpp:441
+msgid ""
+"The key events to convert the selected candidate to the associated "
+"acceptation string.  "
+msgstr "選択された候補を連想変換するキーイベント"
+
+#: src/scim_wnn_imengine_setup.cpp:448
+msgid "Convert to HIRAGANA keys:"
+msgstr "ひらがな変換キー:"
+
+#: src/scim_wnn_imengine_setup.cpp:449
+msgid "Select convert to HIRAGANA keys"
+msgstr "ひらがな変換キーの設定"
+
+#: src/scim_wnn_imengine_setup.cpp:450
+msgid ""
+"The key events to convert the selected candidate or the preedit string to "
+"HIRAGANA. "
+msgstr "選択された候補、あるいは変換前文字列をひらがなへ変換するキーイベント"
+
+#: src/scim_wnn_imengine_setup.cpp:457
+msgid "Convert to KATAKANA keys:"
+msgstr "カタカナ変換キー:"
+
+#: src/scim_wnn_imengine_setup.cpp:458
+msgid "Select convert to KATAGANA keys"
+msgstr "カタカナ変換キーの設定"
+
+#: src/scim_wnn_imengine_setup.cpp:459
+msgid ""
+"The key events to convert the selected candidate or the preedit string to "
+"KATAKANA. "
+msgstr "選択された候補、あるいは変換前文字列をカタカナへ変換するキーイベント"
+
+#: src/scim_wnn_imengine_setup.cpp:476
+msgid "Common keys"
+msgstr "一般キー"
+
+#: src/scim_wnn_imengine_setup.cpp:477
+msgid "Preedit keys"
+msgstr "編集キー"
+
+#: src/scim_wnn_imengine_setup.cpp:478
+msgid "Segment keys"
+msgstr "文節キー"
+
+#: src/scim_wnn_imengine_setup.cpp:479
+msgid "Candidates keys"
+msgstr "候補キー"
+
+#: src/scim_wnn_imengine_setup.cpp:480
+msgid "Other function keys"
+msgstr "その他機能キー"
+
+#: src/scim_wnn_imengine_setup.cpp:530
+msgid "_Server: "
+msgstr "サーバ(_S):"
+
+#: src/scim_wnn_imengine_setup.cpp:547
+msgid "input the server name to connect."
+msgstr "接続するサーバ名を指定します。"
+
+#: src/scim_wnn_imengine_setup.cpp:551
+msgid "_wnnenvrc: "
+msgstr "wnnenvrc(_W):"
+
+#: src/scim_wnn_imengine_setup.cpp:566 src/scim_wnn_imengine_setup.cpp:713
+#: src/scim_wnn_imengine_setup.cpp:793
+msgid "..."
+msgstr "..."
+
+#: src/scim_wnn_imengine_setup.cpp:573
+msgid "input the path of wnnenvrc."
+msgstr "wnnenvrcファイルを指定します"
+
+#: src/scim_wnn_imengine_setup.cpp:576
+msgid "Server_type: "
+msgstr "サーバタイプ(_T):"
+
+#: src/scim_wnn_imengine_setup.cpp:596
+msgid "select the server type from Wnn4 / Wnn6 / Wnn7."
+msgstr "サーバの種類を Wnn4 / Wnn6 / Wnn7 から選択します。"
+
+#: src/scim_wnn_imengine_setup.cpp:599
+msgid "Default_PreEditor: "
+msgstr "標準の読み入力方式(_P):"
+
+#: src/scim_wnn_imengine_setup.cpp:618
+msgid "select the default preeditor."
+msgstr "標準のよみ入力方式を選びます。"
+
+#: src/scim_wnn_imengine_setup.cpp:622
+msgid "_Auto candidates popup: "
+msgstr "自動候補ポップアップ(_A):"
+
+#: src/scim_wnn_imengine_setup.cpp:639
+msgid ""
+"set the count of conversion until displaying the list of lookup result "
+"automatically."
+msgstr "何回変換動作をすれば自動的に候補一覧を表示するかを指定します。"
+
+#: src/scim_wnn_imengine_setup.cpp:642
+msgid "_NumKey selection: "
+msgstr "数字キーによる選択(_N):"
+
+#: src/scim_wnn_imengine_setup.cpp:657
+msgid "If you use the candidate selection by numkey, check this."
+msgstr "候補から数字キーを使って選択できるようにするにはここをチェックします。"
+
+#: src/scim_wnn_imengine_setup.cpp:660
+msgid "Auto _conversion: "
+msgstr "逐次変換(_C):"
+
+#: src/scim_wnn_imengine_setup.cpp:675
+msgid "If you set default to the auto conversion mode use, check this."
+msgstr "逐次変換をデフォルトで有効にするにはここをチェックします。"
+
+#: src/scim_wnn_imengine_setup.cpp:679
+msgid "_YOSOKU-input: "
+msgstr "予測入力(_Y):"
+
+#: src/scim_wnn_imengine_setup.cpp:694
+msgid "if you use YOSOKU-input , check this."
+msgstr "予測入力を利用する場合はここをチェックします"
+
+#: src/scim_wnn_imengine_setup.cpp:698
+msgid "_Roma-Kana table: "
+msgstr "ローマ字変換テーブル(_R):"
+
+#: src/scim_wnn_imengine_setup.cpp:719
+msgid "input the path of Roma-Kana convert table file."
+msgstr "ローマ字かな変換テーブルファイルを指定します"
+
+#: src/scim_wnn_imengine_setup.cpp:833
+msgid "Options"
+msgstr "オプション"
+
+#: src/romkan.cpp:507
+msgid "Roma-Kana"
+msgstr "[あ]"
+
+#: src/romkan.cpp:511
+msgid "Roma-Katakana"
+msgstr "[ア]"
+
+#: src/romkan.cpp:515
+msgid "Half Roma-Kana"
+msgstr "[ｱr]"
+
+#: src/romkan.cpp:519
+msgid "Ascii"
+msgstr "[aa]"
+
+#: src/romkan.cpp:523
+msgid "Wide Ascii"
+msgstr "[ａ]"
+
+#: src/romkan.cpp:587
+msgid "Roma"
+msgstr "ローマ字"
+
+#: src/kanainput.cpp:128
+msgid "KANA"
+msgstr "[あ]"
+
+#: src/kanainput.cpp:136
+msgid "Kana"
+msgstr "かな入力"

@@ -1,0 +1,27 @@
+*scim-wnn
+
+- scim-wnn is module of SCIM-IMEngine for Wnn Japanese conversion. 
+
+**Require
+
+- scim-1.4.*
+- wnn6sdk/wnn7sdk (not supported libwnn.so in Wnn4/FreeWnn.)
+
+**Compiling and Install
+
+- change current directory to working-directory.
+- The following should do it:
+  $ ./configure && make && make install
+- if you got newest version from SVN/CVS Repository:
+  $ ./bootstrap && ./configure && make && make install
+
+**Setup
+
+- please look at Wnn section of scim-setup screen. :-)
+
+**What is "YOSOKU" ?
+
+- YOSOKU is function of prediction at Japanese inputting.
+- scim-wnn can use Wnn7-YOSOKU only.
+- because , if your jserver is not Wnn7(*) , can't use YOSOKU.
+- (*)Wnn6,Wnn8,Wnn4(FreeWnn)...

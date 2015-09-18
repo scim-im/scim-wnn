@@ -1,0 +1,988 @@
+2006-03-28 03:07:31  Rev 490    tamra
+
+	* src/scim_wnn_imengine_setup.cpp:
+	  文節キー設定が表示されていなかったバグ修正。
+
+2006-03-28 02:34:46  Rev 489    tamra
+
+	* src/wnnproto.h src/wnnconversion.cpp:
+	  jl_dic_save_allを追加。
+
+2006-02-28 05:47:31  Rev 484    tamra
+
+	* po/ja.po po/scim-wnn.pot:
+	  メッセージ更新。
+
+2006-02-28 05:45:41  Rev 483    tamra
+
+	* data/like-msime.rkt:
+	  like-msime.rktのミスを修正。
+
+2006-02-28 05:41:48  Rev 482    tamra
+
+	* configure.ac m4/Makefile:
+	  バージョンを0.9.99に。
+
+2006-02-28 05:35:10  Rev 481    tamra
+
+	* src/kanainput.cpp:
+	  かな入力で『づ』を入力できるように。
+
+2006-02-28 05:33:53  Rev 480    tamra
+
+	* src/kanainput.cpp src/romkan.h src/wnnconversion.h src/kanainput.h 
+	  src/preeditor.h m4/Makefile src/convertor.h src/scim_wnn_imengine.
+	  cpp:
+	  namespaceの付加。
+
+2006-02-04 03:40:33  Rev 462    tamra
+
+	* m4/Makefile.in src/kanainput.cpp configure.ac 
+	  src/scim_wnn_imengine.h src/anthyconversion.h m4/Makefile 
+	  src/convertor.h src/Makefile.am src/scim_wnn_imengine.cpp 
+	  src/anthyconversion.cpp:
+	  Anthy対応を除去。
+
+2005-08-12 08:13:26  Rev 318    tamra
+
+	* src/romkan.cpp:
+	  scim-1.4以降でBSキーの動作がおかしいバグを修正。
+
+2005-04-06 06:32:44  Rev 189    tamra
+
+	* src/romkan.h src/romkan.cpp:
+	  ローマ字入力時に未確定文字を色付けするよう変更。
+
+2005-04-06 06:18:29  Rev 188    tamra
+
+	* src/preeditor.cpp src/preeditor.h src/scim_wnn_imengine.cpp:
+	  PreEditorにもgetAttributeListメソッドを追加。
+
+2005-04-06 06:10:06  Rev 187    tamra
+
+	* src/wnnconversion.h src/anthyconversion.h src/convertor.cpp 
+	  src/convertor.h src/wnnconversion.cpp src/anthyconversion.cpp:
+	  ConvertorへのgetNameメソッドの追加。
+
+2005-04-04 06:32:55  Rev 186    tamra
+
+	* src/scim_wnn_imengine.cpp:
+	  初期化時にConvertorのインスタンスチェック。
+
+2005-04-04 05:08:37  Rev 185    tamra
+
+	* src/anthyconversion.cpp:
+	  Anthyのcommitを実装。
+
+2005-04-04 00:29:33  Rev 184    tamra
+
+	* src/anthyconversion.cpp:
+	  Anthyでの文節拡縮を実装。
+
+2005-04-03 05:20:52  Rev 183    tamra
+
+	* configure.ac src/scim_wnn_imengine.h src/anthyconversion.h 
+	  m4/Makefile src/Makefile.am src/scim_wnn_imengine.cpp 
+	  src/anthyconversion.cpp:
+	  すいません。Anthyサポート入れました。
+
+2005-04-03 02:00:03  Rev 182    tamra
+
+	* src/wnnconversion.h src/convertor.cpp src/convertor.h 
+	  src/scim_wnn_imengine.cpp src/wnnconversion.cpp:
+	  ConversionListからResultListに統一。
+
+2005-04-03 01:51:00  Rev 181    tamra
+
+	* src/scim_wnn_imengine.h src/wnnconversion.h src/convertor.cpp 
+	  src/convertor.h src/Makefile.am src/scim_wnn_imengine.cpp 
+	  src/wnnconversion.cpp:
+	  変換部分の分離。不安定になりました。
+
+2005-04-01 05:53:08  Rev 180    tamra
+
+	* configure.ac ChangeLog m4/Makefile:
+	  対象を完全にscim-1.2以上に。
+
+2005-03-29 03:03:39  Rev 176    tamra
+
+	* src/kanainput.cpp:
+	  かな入力モードでShift等で確定されてしまうバグを修正。
+
+2005-03-29 03:00:29  Rev 175    tamra
+
+	* src/scim_wnn_imengine.cpp src/wnnconversion.cpp:
+	  Wnn8で連想変換/異形字変換が無効になっていたバグを修正。
+
+2005-03-28 03:44:46  Rev 173    tamra
+
+	* po/ja.po po/scim-wnn.pot src/scim_wnn_imengine_setup.cpp:
+	  設定画面への機能追加。
+
+2005-03-25 00:01:56  Rev 171    tamra
+
+	* src/kanainput.cpp src/kanainput.h src/scim_wnn_def.h:
+	  なんちゃってかな入力モードの無効化設定を追加。
+
+2005-03-23 03:36:54  Rev 170    tamra
+
+	* src/romkan.cpp:
+	  補正処理でカタカナの「ン」の処理を追加。
+
+2005-03-23 02:47:19  Rev 169    tamra
+
+	* po/ja.po po/scim-wnn.pot:
+	  メッセージ更新。
+
+2005-03-23 02:41:28  Rev 168    tamra
+
+	* data/like-msime.rkt src/romkan.h m4/Makefile src/romkan.cpp:
+	  ひらがな/カタカナ入力モード切り替えを実装。
+
+2005-03-19 00:57:40  Rev 167    tamra
+
+	* src/preeditor.cpp src/romkan.cpp src/scim_wnn_imengine.cpp:
+	  キーイベント回りの調整。
+
+2005-03-16 04:35:02  Rev 166    tamra
+
+	* data/Makefile.am data/kigou-def.rkt data/like-msime.rkt src/romkan.
+	  cpp:
+	  テーブルのincludeが働いていなかったバグを修正。
+
+2005-03-15 19:54:10  Rev 165    tamra
+
+	* po/ja.po po/scim-wnn.pot:
+	  メッセージ更新。
+
+2005-03-15 19:51:24  Rev 164    tamra
+
+	* data/like-msime.rkt src/romkan.h src/preeditor.cpp src/preeditor.h 
+	  src/romkan.cpp:
+	  半角入力モードの実装。
+
+2005-03-14 01:42:09  Rev 163    tamra
+
+	* src/romkan.h data/scim-wnn-def.rkt src/romkan.cpp:
+	  フックまわりの設定追加。
+
+2005-03-12 03:52:33  Rev 162    tamra
+
+	* data/like-msime.rkt src/romkan.h data/scim-wnn-def.rkt src/romkan.
+	  cpp:
+	  RemoveRemainder、AsciiModeCancelの追加及びバグフィックス。
+
+2005-03-08 10:21:29  Rev 161    tamra
+
+	* src/romkan.cpp:
+	  テーブルのパーサのバグ修正。
+
+2005-03-08 10:10:29  Rev 160    tamra
+
+	* data/like-msime.rkt:
+	  とりあえず長音符だけ追加。
+
+2005-03-08 09:44:19  Rev 159    tamra
+
+	* src/scim_wnn_def.h src/romkan.cpp:
+	  ローマ字テーブルの読み込み回り処理及び不要コードの除去。
+
+2005-03-08 09:26:52  Rev 158    tamra
+
+	* data/like-msime.rkt src/romkan.h data/scim-wnn-def.rkt src/romkan.
+	  cpp:
+	  設定をテーブル側に統一。
+
+2005-03-08 08:52:49  Rev 157    tamra
+
+	* data/Makefile.am m4/Makefile.in configure.ac m4/Makefile 
+	  src/Makefile.am:
+	  DATADIRを追加。
+
+2005-03-06 05:58:16  Rev 156    tamra
+
+	* data/like-msime.rkt src/romkan.h src/scim_wnn_def.h 
+	  data/scim-wnn-def.rkt src/romkan.cpp:
+	  テーブルからの設定修正を可能に。
+
+2005-03-06 04:46:21  Rev 155    tamra
+
+	* data/like-msime.rkt:
+	  MSIMEっぽテーブル追加。
+
+2005-03-05 01:54:32  Rev 154    tamra
+
+	* src/romkan.h src/scim_wnn_def.h src/romkan_table.h 
+	  data/scim-wnn-def.rkt src/romkan.cpp:
+	  ローマ字変換テーブルの差し換え対応。
+
+2005-03-01 17:09:19  Rev 152    tamra
+
+	* configure.ac ChangeLog m4/Makefile:
+	  0.2.3。
+
+2005-03-01 17:01:51  Rev 151    tamra
+
+	* src/wnnconversion.h src/romkan_table.h src/scim_wnn_imengine.cpp 
+	  src/scim_wnn_imengine_setup.cpp:
+	  Wnn8対応。
+
+2005-02-20 02:29:03  Rev 150    tamra
+
+	* src/romkan.h src/preeditor.cpp src/scim_wnn_def.h src/preeditor.h 
+	  src/romkan.cpp:
+	  ASCIIモードおよびWASCIIモード移行キーを選択可能に。
+
+2005-02-16 15:09:30  Rev 149    tamra
+
+	* src/preeditor.cpp src/preeditor.h src/romkan.cpp:
+	  半角変換時のキャレット位置ずれを正しく修正するコード追加。
+
+2005-02-08 18:40:08  Rev 148    tamra
+
+	* src/romkan.cpp:
+	  半角変換時のキャレット位置のずれを不完全だが修正。
+
+2005-02-05 01:43:14  Rev 147    tamra
+
+	* src/wnnconversion.cpp:
+	  strtowsの半角対応を修正。
+
+2005-02-05 01:26:22  Rev 146    tamra
+
+	* src/romkan.h src/preeditor.cpp src/scim_wnn_imengine.h 
+	  src/scim_wnn_def.h src/preeditor.h src/romkan_table.h src/romkan.
+	  cpp src/scim_wnn_imengine.cpp:
+	  半角変換コードの実装および保留コードバグ修正。
+
+2005-02-04 11:06:40  Rev 145    tamra
+
+	* src/romkan.h src/romkan_table.h src/romkan.cpp:
+	  vectorをmap+setに。保留を自動生成。
+
+2005-01-28 19:29:20  Rev 143    tamra
+
+	* configure.ac ChangeLog m4/Makefile:
+	  リリース準備。
+
+2005-01-28 18:59:17  Rev 142    tamra
+
+	* po/ja.po po/scim-wnn.pot:
+	  メッセージ更新。
+
+2005-01-28 18:50:54  Rev 141    tamra
+
+	* src/scim_wnn_imengine_setup.cpp:
+	  逐次変換のデフォルトOn/Offの設定画面追加。
+
+2005-01-28 17:55:45  Rev 140    tamra
+
+	* src/romkan.h src/romkan_table.h src/romkan.cpp:
+	  「nn」を「ん」にするnnModeなるものを実装。
+
+2005-01-28 17:02:49  Rev 139    tamra
+
+	* src/romkan_table.h:
+	  ローマ字テーブルの報告された欠落を補完。
+
+2005-01-28 16:51:02  Rev 138    tamra
+
+	* intl/config.charset m4/wint_t.m4 intl/relocatable.c 
+	  intl/loadmsgcat.c intl/printf-parse.h intl/libgnuintl.h.in 
+	  intl/relocatable.h m4/po.m4 intl/intl-compat.c intl/dcigettext.c 
+	  intl/localcharset.c m4/Makefile intl/wprintf-parse.h m4/lib-link.
+	  m4 intl/localcharset.h m4/printf-posix.m4 intl/l10nflist.c 
+	  m4/ulonglong.m4 intl/log.c m4/longlong.m4 intl/dgettext.c 
+	  m4/gettext.m4 intl/printf-args.c m4/inttypes_h.m4 intl/plural.c 
+	  intl/loadinfo.h intl/printf-args.h intl/explodename.c 
+	  m4/longdouble.m4 intl/dngettext.c intl/finddomain.c m4/lib-prefix.
+	  m4 intl/gettextP.h intl/dcngettext.c intl/localealias.c m4/lib-ld.
+	  m4 ABOUT-NLS m4/progtest.m4 m4/ChangeLog m4/uintmax_t.m4 
+	  intl/bindtextdom.c m4/stdint_h.m4 intl/plural.y intl/vasnwprintf.h 
+	  m4/size_max.m4 intl/plural-exp.c intl/dcgettext.c intl/plural-exp.
+	  h m4/Makefile.am intl/printf.c m4/nls.m4 intl/ChangeLog intl/xsize.
+	  h m4/xsize.m4 m4/Makefile.in intl/textdomain.c po/Makefile.in.in 
+	  m4/signed.m4 intl/gettext.c intl/gmo.h intl/eval-plural.h 
+	  intl/vasnprintf.c intl/hash-string.h po/ja.po intl/vasnprintf.h 
+	  m4/wchar_t.m4 intl/localename.c intl/Makefile.in intl/ngettext.c 
+	  intl/VERSION intl/locale.alias m4/intmax.m4 intl/printf-parse.c:
+	  intltool回りをアップデート。
+
+2005-01-18 00:17:05  Rev 137    tamra
+
+	* src/scim_wnn_imengine.h src/scim_wnn_def.h src/scim_wnn_imengine.
+	  cpp:
+	  すっかり忘れていた先頭/文末カーソル移動を実装。
+
+2005-01-16 05:38:12  Rev 136    tamra
+
+	* src/scim_wnn_imengine.cpp:
+	  逐次変換結果が反映されずcommitされる部分があったのを修正。
+
+2005-01-16 04:30:50  Rev 135    tamra
+
+	* po/ja.po src/scim_wnn_imengine.h src/scim_wnn_def.h po/scim-wnn.
+	  pot src/scim_wnn_imengine.cpp src/wnnconversion.cpp:
+	  逐次変換をサポート。
+
+2005-01-15 05:37:31  Rev 133    tamra
+
+	* configure.ac ChangeLog:
+	  0.2.1。
+
+2005-01-14 23:08:00  Rev 132    tamra
+
+	* src/preeditor.cpp src/preeditor.h src/scim_wnn_imengine.cpp:
+	  スピードアップ。
+
+2005-01-12 05:33:17  Rev 131    tamra
+
+	* src/romkan.h src/preeditor.cpp src/preeditor.h src/romkan_table.h 
+	  src/romkan.cpp:
+	  やたらiconvを使わないように修正。
+
+2005-01-11 05:35:08  Rev 130    tamra
+
+	* po/ja.po src/scim_wnn_imengine.h src/scim_wnn_def.h po/scim-wnn.
+	  pot src/scim_wnn_imengine.cpp src/scim_wnn_imengine_setup.cpp:
+	  標準のPreEditorを選択可能に。
+
+2005-01-08 06:03:01  Rev 129    tamra
+
+	* src/scim_wnn_imengine_setup.cpp:
+	  サーバタイプ選択をEntryからListに。
+
+2005-01-03 03:30:16  Rev 128    tamra
+
+	* src/scim_wnn_imengine.h src/scim_wnn_imengine.cpp:
+	  数字キーによる選択を無効化可能に。
+
+2005-01-03 01:06:40  Rev 127    tamra
+
+	* po/ja.po po/scim-wnn.pot:
+	  メッセージ更新。
+
+2005-01-03 01:03:30  Rev 126    tamra
+
+	* src/scim_wnn_def.h src/scim_wnn_imengine_setup.cpp:
+	  設定画面を強化。
+
+2004-12-31 01:07:46  Rev 125    tamra
+
+	* src/scim_wnn_imengine.cpp:
+	  数字キーで予測候補の選択を可能に。
+
+2004-12-30 06:12:52  Rev 124    tamra
+
+	* src/romkan.cpp:
+	  ローマ字入力テーブル検索を確定するまで再帰するよう修正。
+
+2004-12-30 02:05:17  Rev 123    tamra
+
+	* src/scim_wnn_imengine.cpp:
+	  予測候補が複数ページに渡る場合に落ちるバグを暫定的に修正。
+
+2004-12-28 19:25:11  Rev 121    tamra
+
+	* configure.ac:
+	  リリース準備。
+
+2004-12-28 19:15:21  Rev 120    tamra
+
+	* src/scim_wnn_imengine.cpp:
+	  lookup出っぱなしになるのを修正。
+
+2004-12-28 19:08:04  Rev 119    tamra
+
+	* README:
+	  README更新。
+
+2004-12-28 18:55:39  Rev 118    tamra
+
+	* po/ja.po ChangeLog po/scim-wnn.pot src/scim_wnn_imengine_setup.cpp:
+	  tooltipの追加とメッセージ追加。
+
+2004-12-28 18:35:53  Rev 117    tamra
+
+	* src/scim_wnn_def.h src/scim_wnn_imengine_setup.cpp:
+	  設定画面追加。
+
+2004-12-28 17:49:54  Rev 116    tamra
+
+	* src/scim_wnn_imengine.h src/wnnconversion.h src/scim_wnn_def.h 
+	  src/scim_wnn_imengine.cpp src/wnnconversion.cpp:
+	  サーバタイプによる機能分離。
+
+2004-12-24 19:28:00  Rev 115    tamra
+
+	* po/ja.po src/scim_wnn_def.h po/scim-wnn.pot src/scim_wnn_imengine.
+	  cpp src/scim_wnn_imengine_setup.cpp:
+	  設定まわり修正。
+
+2004-12-22 06:31:44  Rev 114    tamra
+
+	* src/romkan.cpp:
+	  余計なキーをcommit扱いする部分を修正。
+
+2004-12-22 04:00:23  Rev 113    tamra
+
+	* src/romkan.cpp src/wnnconversion.cpp:
+	  喰っておくべきキーを設定。
+
+2004-12-22 03:08:21  Rev 112    tamra
+
+	* po/ja.po:
+	  [あr]を[あ]に変更。
+
+2004-12-22 03:06:45  Rev 111    tamra
+
+	* po/ja.po po/scim-wnn.pot:
+	  メッセージ更新。
+
+2004-12-22 03:04:32  Rev 110    tamra
+
+	* src/scim_wnn_imengine.cpp:
+	  予測時のキャレットの位置修正とcommitキーの有効化。
+
+2004-12-22 02:58:15  Rev 109    tamra
+
+	* src/scim_wnn_imengine.cpp:
+	  予測をマウスで選択できるよう修正。
+
+2004-12-22 02:45:54  Rev 108    tamra
+
+	* src/romkan.h src/preeditor.cpp src/scim_wnn_imengine.h 
+	  src/scim_wnn_def.h src/preeditor.h src/romkan.cpp 
+	  src/scim_wnn_imengine.cpp:
+	  予測の選択を追加。
+
+2004-12-22 01:09:54  Rev 107    tamra
+
+	* src/wnnproto.h src/scim_wnn_imengine.h src/wnnconversion.h 
+	  src/scim_wnn_imengine.cpp src/wnnconversion.cpp:
+	  接続まわりの微調整と候補表示まわりの整理。
+
+2004-12-22 00:21:39  Rev 106    tamra
+
+	* src/wnnproto.h src/scim_wnn_imengine.h src/wnnconversion.h 
+	  src/scim_wnn_imengine.cpp src/wnnconversion.cpp:
+	  予測入力コード導入。選択不可。
+
+2004-12-18 02:31:46  Rev 105    tamra
+
+	* src/romkan.cpp src/scim_wnn_imengine.cpp:
+	  PreEditorで処理すべきで無い文字の扱いを修正。
+
+2004-12-18 00:37:22  Rev 104    tamra
+
+	* po/ja.po:
+	  メッセージのfuzzy除去。
+
+2004-12-18 00:34:04  Rev 103    tamra
+
+	* src/wnnproto.h po/ja.po src/scim_wnn_imengine.h src/wnnconversion.
+	  h src/scim_wnn_def.h po/scim-wnn.pot src/scim_wnn_imengine.cpp 
+	  src/wnnconversion.cpp:
+	  連想変換と異形字変換に一応対応しました。
+
+2004-12-17 23:42:54  Rev 102    tamra
+
+	* src/romkan_table.h:
+	  ローマ字かな変換テーブルの欠落を補完。
+
+2004-12-17 20:28:45  Rev 96     tamra
+
+	* src/wnnproto.h src/wnnconversion.cpp:
+	  Wnn7向けFix。
+
+2004-12-17 00:46:24  Rev 95     tamra
+
+	* src/romkan.cpp:
+	  テンキーによる数字入力対応。
+
+2004-12-16 04:30:12  Rev 94     tamra
+
+	* src/wnnproto.h src/wnnconversion.cpp:
+	  FreeWnn版libwnn対応コードをWnn6/7向けに完全置換。
+
+2004-12-16 04:24:19  Rev 93     tamra
+
+	* configure.ac ChangeLog:
+	  FreeWnnのlibwnn.soを蹴る設定に変更。
+
+2004-12-16 03:10:11  Rev 92     tamra
+
+	* po/ja.po po/scim-wnn.pot:
+	  メッセージ更新。
+
+2004-12-16 03:06:54  Rev 91     tamra
+
+	* src/romkan.h src/romkan.cpp:
+	  latinと言う表記をやめて全てasciiと変更。
+
+2004-12-14 18:59:07  Rev 86     tamra
+
+	* configure.ac po/ja.po po/scim-wnn.pot:
+	  リリース準備。
+
+2004-12-14 18:59:02  Rev 85     tamra
+
+	* src/scim_wnn_imengine_setup.cpp:
+	  リリース準備。
+
+2004-12-14 18:13:15  Rev 84     tamra
+
+	* src/wnnproto.h src/scim_wnn_imengine.h src/wnnconversion.h 
+	  src/scim_wnn_def.h src/scim_wnn_imengine.cpp src/wnnconversion.cpp:
+	  FreeWnn対策でDisconnectを再び除去。
+
+2004-12-14 17:41:43  Rev 83     tamra
+
+	* src/scim_wnn_imengine.cpp src/wnnconversion.cpp:
+	  微調整。
+
+2004-12-14 17:34:17  Rev 82     tamra
+
+	* src/scim_wnn_imengine.cpp:
+	  微調整。
+
+2004-12-14 17:30:37  Rev 81     tamra
+
+	* src/wnnconversion.cpp:
+	  微調整。
+
+2004-12-14 17:20:13  Rev 80     tamra
+
+	* src/wnnproto.h src/scim_wnn_imengine.h src/wnnconversion.h 
+	  src/scim_wnn_def.h src/scim_wnn_imengine.cpp src/wnnconversion.cpp:
+	  Wnnとの接続まわりを微調整。
+
+2004-12-14 16:43:12  Rev 79     tamra
+
+	* src/scim_wnn_imengine.cpp:
+	  ちょっとしたコード整理。
+
+2004-12-14 16:31:52  Rev 78     tamra
+
+	* po/ja.po Makefile.am po/scim-wnn.pot:
+	  微調整。
+
+2004-12-14 16:15:00  Rev 77     tamra
+
+	* src/scim_wnn_imengine.cpp:
+	  フォーカス切り替え時にPropertyが更新されないバグを修正。
+
+2004-12-14 15:36:59  Rev 76     tamra
+
+	* src/romkan_table.h src/romkan.cpp:
+	  ローマ字入力モードからかな入力処理を除去。
+
+2004-12-14 05:41:49  Rev 75     tamra
+
+	* src/romkan_table.h:
+	  更にローマ字かな変換テーブルの欠落を補完。
+
+2004-12-14 03:52:30  Rev 74     tamra
+
+	* src/romkan_table.h:
+	  ローマ字かな変換テーブルの欠落を補完。
+
+2004-12-13 02:31:00  Rev 73     tamra
+
+	* src/scim_wnn_imengine.cpp:
+	  知らないうちに打っていたらしいスペースを除去。
+
+2004-12-13 01:41:50  Rev 72     tamra
+
+	* src/romkan.h po/ja.po src/scim_wnn_imengine.h src/kanainput.h 
+	  po/POTFILES.in po/scim-wnn.pot src/preeditor.h src/romkan.cpp 
+	  src/scim_wnn_imengine.cpp:
+	  入力モード切り替え実装。
+
+2004-12-13 00:58:11  Rev 71     tamra
+
+	* src/kanainput.cpp src/romkan.h src/preeditor.cpp 
+	  src/scim_wnn_imengine.h src/kanainput.h src/preeditor.h src/romkan.
+	  cpp src/Makefile.am src/scim_wnn_imengine.cpp:
+	  かな入力PreEditorを別クラスとして実装。
+
+2004-12-10 16:56:34  Rev 70     tamra
+
+	* src/romkan_table.h:
+	  かな入力マップの欠落を補完。
+
+2004-12-10 16:24:57  Rev 69     tamra
+
+	* src/romkan_table.h src/romkan.cpp:
+	  かな入力に一応対応。
+
+2004-12-10 14:48:28  Rev 68     tamra
+
+	* src/scim_wnn_def.h src/scim_wnn_imengine.cpp:
+	  プロパティ名をdefine。
+
+2004-12-10 14:43:19  Rev 67     tamra
+
+	* po/ja.po src/scim_wnn_imengine.h ChangeLog src/scim_wnn_def.h 
+	  po/scim-wnn.pot src/scim_wnn_imengine.cpp:
+	  プロパティに状態表示を追加。
+
+2004-12-07 11:17:29  Rev 66     tamra
+
+	* src/romkan.h src/preeditor.cpp src/preeditor.h src/romkan.cpp 
+	  src/scim_wnn_imengine.cpp:
+	  PreEditorにConfigPointerを渡す。
+
+2004-12-06 01:42:19  Rev 65     tamra
+
+	* src/romkan.h src/preeditor.cpp src/preeditor.h src/romkan.cpp 
+	  src/scim_wnn_imengine.cpp:
+	  insert(char)を廃止しinputEvent(const KeyEvent &)に移行。
+
+2004-12-05 11:14:28  Rev 64     tamra
+
+	* src/scim_wnn_def.h src/scim_wnn_imengine.cpp:
+	  初期化コード調整。
+
+2004-12-03 15:37:11  Rev 63     tamra
+
+	* po/ja.po po/POTFILES.in po/scim-wnn.pot:
+	  メッセージ更新。
+
+2004-12-03 15:27:10  Rev 62     tamra
+
+	* src/scim_wnn_imengine.h src/romkan.cpp src/scim_wnn_imengine.cpp:
+	  小窓を実装(実験的に常にON)。
+
+2004-12-03 14:13:43  Rev 61     tamra
+
+	* src/preeditor.cpp src/preeditor.h src/romkan.cpp:
+	  全角英字モードを追加。
+
+2004-12-03 07:18:23  Rev 60     tamra
+
+	* src/romkan.cpp src/scim_wnn_imengine.cpp:
+	  preeditの最後の文字が消えないバグを修正。
+
+2004-12-03 06:21:45  Rev 59     tamra
+
+	* src/romkan.h src/preeditor.cpp src/scim_wnn_imengine.h 
+	  src/preeditor.h src/romkan.cpp src/scim_wnn_imengine.cpp:
+	  英字直接入力モードの仮実装。
+
+2004-12-02 06:08:01  Rev 58     tamra
+
+	* src/romkan.h src/preeditor.cpp src/preeditor.h src/romkan.cpp 
+	  src/scim_wnn_imengine.cpp:
+	  入力モードを表示する仕組みを準備(準備だけ)。
+
+2004-12-01 05:30:53  Rev 57     makeinu
+
+	* po/ja.po po/scim-wnn.pot src/scim_wnn_imengine_setup.cpp:
+	  ほのかたんに日本語を教えてみますた
+
+
+2004-11-30 23:58:19  Rev 56     tamra
+
+	* src/preeditor.h:
+	  virtual打ち忘れ追加。
+
+2004-11-30 23:53:29  Rev 55     tamra
+
+	* src/romkan.h src/preeditor.cpp src/scim_wnn_imengine.h 
+	  src/preeditor.h src/romkan.cpp src/Makefile.am 
+	  src/scim_wnn_imengine.cpp:
+	  preeditの動的切り替え対応準備。
+
+2004-11-30 20:58:04  Rev 54     tamra
+
+	* po/ja.po po/scim-wnn.pot src/scim_wnn_imengine.cpp:
+	  メッセージ回り修正。
+
+2004-11-30 19:47:51  Rev 53     tamra
+
+	* src/scim_wnn_imengine.h src/scim_wnn_imengine.cpp:
+	  コード整理。
+
+2004-11-30 19:43:20  Rev 52     tamra
+
+	* src/scim_wnn_imengine.cpp:
+	  コード整理。
+
+2004-11-30 19:23:40  Rev 51     tamra
+
+	* src/romkan.cpp src/scim_wnn_imengine.cpp:
+	  バッファ空時のスペースの処理及びコード整理。
+
+2004-11-30 18:38:20  Rev 50     tamra
+
+	* src/romkan_table.h:
+	  ローマ字かな変換テーブルの不足を補完(thx! zoe)。
+
+2004-11-30 18:34:09  Rev 49     makeinu
+
+	* AUTHORS:
+	  コミットテスト
+
+
+2004-11-30 07:47:48  Rev 48     tamra
+
+	* src/scim_wnn_imengine_setup.cpp:
+	  ashieさんから設定部分コード頂きました。助かりました…。
+
+2004-11-29 02:45:58  Rev 45     tamra
+
+	* po/ja.po po/scim-wnn.pot:
+	  メッセージ更新。
+
+2004-11-29 02:34:15  Rev 44     tamra
+
+	* src/scim_wnn_imengine.cpp:
+	  候補表示中に数字以外のキーでpreedit突入。
+
+2004-11-29 02:23:38  Rev 43     tamra
+
+	* src/scim_wnn_imengine.cpp:
+	  環境名と初期値変更。
+
+2004-11-29 01:42:10  Rev 42     tamra
+
+	* src/romkan.cpp:
+	  超初級ミス修正。orz
+
+2004-11-29 01:13:47  Rev 41     tamra
+
+	* src/romkan.cpp:
+	  細いバグ修正。
+
+2004-11-29 00:46:14  Rev 40     tamra
+
+	* src/romkan.cpp src/scim_wnn_imengine.cpp:
+	  行頭にカーソルを移動すると落ちるバグを修正。
+
+2004-11-28 00:02:47  Rev 39     tamra
+
+	* src/romkan.h src/romkan.cpp src/scim_wnn_imengine.cpp:
+	  ローマ字かな変換のキーイベントフック実装。
+
+2004-11-27 06:21:32  Rev 38     tamra
+
+	* src/scim_wnn_imengine.h src/scim_wnn_imengine.cpp 
+	  src/wnnconversion.cpp:
+	  ひらがな/カタカナ変換の完全実装。
+
+2004-11-27 05:37:09  Rev 37     tamra
+
+	* src/romkan.h src/scim_wnn_imengine.h src/scim_wnn_def.h 
+	  src/romkan_table.h src/romkan.cpp src/scim_wnn_imengine.cpp:
+	  ひらがな/カタカナ変換実装。
+
+2004-11-27 00:36:59  Rev 36     tamra
+
+	* src/romkan_table.h:
+	  記号その他の変換テーブルを追加。
+
+2004-11-26 23:16:37  Rev 35     tamra
+
+	* src/scim_wnn_imengine.cpp:
+	  一覧の表示位置修正。
+
+2004-11-26 22:10:55  Rev 34     tamra
+
+	* src/scim_wnn_imengine.cpp:
+	  ALP==-1時動作を修正。
+
+2004-11-26 21:41:30  Rev 33     tamra
+
+	* src/scim_wnn_imengine.cpp src/wnnconversion.cpp:
+	  setPosを循環するように修正。
+
+2004-11-26 21:06:45  Rev 32     tamra
+
+	* src/scim_wnn_imengine.cpp:
+	  自動一覧ポップアップのカウタずれを修正。
+
+2004-11-26 20:40:52  Rev 31     tamra
+
+	* src/scim_wnn_imengine_setup.cpp:
+	  設定画面実装開始(動きません！)。
+
+2004-11-26 09:14:13  Rev 30     tamra
+
+	* src/scim_wnn_imengine.cpp:
+	  CtrlやAltの組み合わせのキーを喰ってしまうことがあったのを修正。
+
+2004-11-26 08:05:08  Rev 29     tamra
+
+	* src/scim_wnn_imengine.cpp src/wnnconversion.cpp:
+	  接続チェック。
+
+2004-11-26 07:48:10  Rev 28     tamra
+
+	* src/scim_wnn_imengine.h src/scim_wnn_def.h src/Makefile.am 
+	  src/scim_wnn_imengine.cpp src/wnnconversion.cpp:
+	  デフォルト設定分離。
+
+2004-11-26 07:41:06  Rev 27     tamra
+
+	* src/wnnproto.h:
+	  タイプミス修正。
+
+2004-11-26 00:22:24  Rev 26     tamra
+
+	* src/scim_wnn_imengine.h src/scim_wnn_imengine.cpp:
+	  一覧の次項/前項処理追加。
+
+2004-11-24 09:32:20  Rev 25     tamra
+
+	* configure.ac src/wnnproto.h src/wnnstruct.h INSTALL COPYING 
+	  src/wnnconversion.cpp:
+	  もしかしたらFreeWnnでもコンパイル通るかも。
+
+2004-11-24 06:17:46  Rev 24     tamra
+
+	* src/scim_wnn_imengine.cpp:
+	  フォーカスが外れたら確定動作をするように修正。
+
+2004-11-24 05:16:55  Rev 23     tamra
+
+	* src/scim_wnn_imengine.h src/scim_wnn_imengine.cpp 
+	  src/wnnconversion.cpp:
+	  候補一覧追加。
+
+2004-11-24 03:48:36  Rev 22     tamra
+
+	* src/wnnconversion.h src/wnnconversion.cpp:
+	  変換時のカーソル位置計算を追加。
+
+2004-11-23 22:52:15  Rev 21     tamra
+
+	* AUTHORS ChangeLog README:
+	  コード以外の修正。
+
+2004-11-23 08:40:13  Rev 20     tamra
+
+	* src/scim_wnn_imengine.cpp:
+	  preedit時のキャンセル動作に対応。
+
+2004-11-23 08:23:31  Rev 19     tamra
+
+	* configure.ac src/scim_wnn_imengine.h src/scim_wnn_imengine.cpp 
+	  src/wnnconversion.cpp:
+	  キー設定対応。
+
+2004-11-23 05:11:17  Rev 18     tamra
+
+	* src/wnnconversion.h src/scim_wnn_imengine.cpp src/wnnconversion.cpp:
+	  _scim_configの利用とwnnConnectの分離。
+
+2004-11-22 08:10:24  Rev 17     tamra
+
+	* src/wnnproto.h src/wnnconversion.h src/scim_wnn_imengine.cpp 
+	  src/wnnconversion.cpp:
+	  頻度保存(不完全)。
+
+2004-11-22 07:06:56  Rev 16     tamra
+
+	* src/wnnconversion.cpp:
+	  半角カナ対応。
+
+2004-11-22 06:43:22  Rev 15     tamra
+
+	* data/Makefile.am configure.ac data/scim-wnn.png data:
+	  なんとなくアイコンを追加してみた。
+
+2004-11-22 01:07:38  Rev 14     tamra
+
+	* src/wnnproto.h src/wnnconversion.h src/scim_wnn_imengine.cpp 
+	  src/wnnconversion.cpp:
+	  変換領域の拡縮に対応。
+
+2004-11-22 00:10:43  Rev 13     tamra
+
+	* src/scim_wnn_imengine.cpp:
+	  連続的な入力に対処。
+
+2004-11-20 23:59:31  Rev 12     tamra
+
+	* src/scim_wnn_imengine.cpp:
+	  上下キーでの変換を実装。
+
+2004-11-20 23:53:52  Rev 11     tamra
+
+	* src/wnnproto.h src/scim_wnn_imengine.h src/wnnconversion.h 
+	  src/scim_wnn_imengine.cpp src/wnnconversion.cpp:
+	  変換実装。
+
+2004-11-19 20:26:09  Rev 10     tamra
+
+	* src/wnnproto.h src/romkan.h src/scim_wnn_imengine.h 
+	  src/wnnconversion.h src/romkan.cpp src/Makefile.am 
+	  src/scim_wnn_imengine.cpp src/wnnconversion.cpp:
+	  変換の仮実装。
+
+2004-11-19 08:04:52  Rev 9      tamra
+
+	* src/wnnproto.h src/scim_wnn_imengine.h src/romkan_table.h 
+	  src/scim_wnn_imengine.cpp:
+	  微調整。
+
+2004-11-18 03:26:55  Rev 8      tamra
+
+	* src/scim_wnn_imengine.cpp:
+	  preeditでのBS処理でメインにもBSイベントがいってしまうバグを修正。
+
+2004-11-18 03:23:55  Rev 7      tamra
+
+	* configure.ac src/wnnproto.h src/romkan.h src/scim_wnn_imengine.h 
+	  src/romkan_table.h src/romkan.cpp src/Makefile.am 
+	  src/scim_wnn_imengine.cpp:
+	  ローマ字入力対応、部分的にバグあり。
+
+2004-11-12 18:45:34  Rev 6      tamra
+
+	* src/Makefile.am:
+	  修正し忘れ修正。
+
+2004-11-12 18:44:15  Rev 5      tamra
+
+	* src/Makefile.am:
+	  修正し忘れ修正。
+
+2004-11-12 18:37:57  Rev 4      tamra
+
+	* m4/Makefile.in configure.ac po/ja.po src/scim_wnn_imengine.h 
+	  po/scim-wnn.pot src/Makefile.am src/scim_wnn_imengine.cpp:
+	  色々追加。make通るけどinstallしたらダメよ。
+
+2004-11-12 02:47:59  Rev 3      tamra
+
+	* intl/config.charset intl/libgnuintl.h po/remove-potcdate.sin 
+	  intl/loadmsgcat.c po/POTFILES.in bootstrap intl/intl-compat.c m4 
+	  mkinstalldirs po/en@quot.header po/en@boldquot.header m4/glibc21.
+	  m4 config.rpath m4/codeset.m4 intl/localcharset.c intl/dcigettext.
+	  c m4/lib-link.m4 configure.ac intl/l10nflist.c intl m4/intdiv0.m4 
+	  NEWS m4/isc-posix.m4 m4/inttypes.m4 po intl/dgettext.c po/quot.sed 
+	  m4/gettext.m4 m4/inttypes_h.m4 intl/plural.c intl/loadinfo.h src 
+	  intl/explodename.c README intl/dngettext.c intl/finddomain.c 
+	  m4/lib-prefix.m4 intl/localealias.c intl/dcngettext.c 
+	  intl/gettextP.h src/scim_wnn_imengine.cpp m4/lib-ld.m4 ABOUT-NLS 
+	  m4/inttypes-pri.m4 m4/progtest.m4 m4/ChangeLog m4/uintmax_t.m4 
+	  intl/bindtextdom.c m4/stdint_h.m4 intl/ref-del.sin intl/plural.y 
+	  m4/iconv.m4 intl/plural-exp.c po/boldquot.sed intl/dcgettext.c 
+	  intl/plural-exp.h ChangeLog po/Makevars m4/Makefile.am 
+	  intl/ChangeLog intl/os2compat.c intl/ref-add.sin po/insert-header.
+	  sin intl/osdep.c m4/lcmessage.m4 m4/Makefile.in intl/textdomain.c 
+	  intl/os2compat.h po/ChangeLog po/Makefile.in.in 
+	  src/scim_wnn_imengine.h Makefile.am intl/gettext.c intl/gmo.h 
+	  intl/eval-plural.h src/scim_wnn_imengine_setup.cpp 
+	  intl/hash-string.h AUTHORS intl/localename.c intl/Makefile.in 
+	  intl/ngettext.c intl/VERSION intl/locale.alias po/Rules-quot 
+	  src/Makefile.am:
+	  
+
+2004-11-12 02:47:39  Rev 2      tamra
+
+	* :
+	  
+
